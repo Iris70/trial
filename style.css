@@ -1,0 +1,711 @@
+body{
+    background-color: rgb(15 23 42);
+    font: #FFFFFF;
+    color: white;
+}
+#name{
+    color: #1FFF6B;
+    
+}
+
+button{
+    border: 0px;
+    background-color: #1FFF6B;
+    float: right;
+    border-top-left-radius:10px;
+border-top-right-radius:10px;
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+margin-left:300px;
+height: 40px;
+
+}
+#im1{
+    border-top-left-radius:50%;
+border-top-right-radius:50%;
+border-bottom-right-radius:50%;
+border-bottom-left-radius:50%;
+border-color: rgb(145, 235, 145);
+border-style: groove ;
+width: 200px;
+
+}
+p{
+font-size: 20px;
+}
+#nn{
+    color:#FFFFFF;
+}
+#nn1{
+    color:#AFC8C2;
+}
+a{
+    color:black;
+    
+}
+#all{
+    display: flex;
+    float: left;
+
+}
+#im2{
+    border: 2px solid #1FFF6B;
+  border-radius: 5px;
+  width: 350px;
+  
+}
+#about1{
+    opacity: 2%;
+    color: white;
+    font-size: 90px;
+    margin-left: 600px;
+    
+}
+li{
+    color: #1FFF6B;
+}
+#naw{
+    color: white;
+    font-size: 20px;
+}
+#hh3{
+    color: white;
+    font-size: 20px;
+    margin-top: -7px;
+}
+#dow{
+    color: white;
+    border-radius: 5px;
+    width: 280px;
+    height: 40px;
+    background-color: #1FFF6B;
+    margin-right: 120px;
+}
+#abme{
+    color: white;
+    font-size: 50px;
+    margin-left: 220px;
+    
+   
+}
+#tit{
+    display: flex;
+}
+.header{
+    display: flex;
+    margin-left: 30px;
+    position: absolute;
+}
+#f{
+    width: 40px;
+    height: 40px;
+}
+#cus{
+    color: #AFC8C2;
+    font-size: 20px;
+}
+#coni{
+    font-size: 30px;
+}
+#p1{
+    border-radius: 8px;
+    border: 0.5px solid white;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(22 32 51);
+}
+#p2{
+    border-radius: 8px;
+    border: 0.5px solid white;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(22 32 51);
+}
+#p3{
+    border-radius: 8px;
+    border: 0.5px solid white;
+    width: 500px;
+    height: 100px;
+    background-color:rgb(22 32 51);
+}
+#log{
+    width: 60px;
+    margin-top: 20px;
+    opacity:0.5;
+    margin-left: 20px;
+}
+#pho{
+    margin-top: -70px;
+    margin-left: 100px;
+
+}
+form{
+    background-color: rgb(22 32 51);
+    width: 750px;
+    padding-inline-start: 30px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: block;
+    line-height: 25.6px;
+    border-radius: 15px;
+    border-color: #f2f2f2;
+    border: 1px;
+}
+input{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(15, 23, 42, 0.2);
+    color:rgb(191, 190, 203);
+    font-family: "Radio Canada", sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400px;
+}
+label{
+    margin-bottom: 0.375rem;
+    display: block;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400px;
+    --tw-text-opacity: 1;
+    color: rgb(250 250 250);
+    font-family: "Radio Canada",sans-serif;
+}
+textarea{
+    border-radius: 10px;
+    background-color: rgb(15, 23, 42, 0.2);
+    color:rgb(191, 190, 203);
+    font-family: "Radio Canada", sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400px;
+    
+}
+#butn{
+    color: rgb(15 23 42);
+    background-color: rgb(114 226 174);
+    text-transform: uppercase;
+    line-height: 4;
+    font-weight: 500;
+    vertical-align: middle;
+    font-family: "Radio Canada", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    width: 120.047px;
+  
+
+    padding-left: 20px; 
+    padding-bottom: 10px;
+    height: 40px;
+    border: none;
+    
+}
+#lo1{
+    width: 40px;
+}
+#reserved{
+    float: right;
+    color: #AFC8C2;
+    font-size: 20px;
+
+}
+
+.topnav {
+overflow-wrap: normal;    
+    background-color: rgb(15 23 42);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    text-decoration: underline;
+    color: rgb(24, 221, 139);
+  }
+  .topnav a.active:hover{
+    text-decoration: underline;
+    color: rgb(24, 221, 139);
+  }
+  button:hover{
+    background-color: #f2f2f2;
+  }
+  
+  .topnav a.active {
+    
+    text-decoration: wavy;
+    color: rgb(24, 221, 139);
+  }
+  
+  .topnav .icon {
+    display: none;
+    background-color: rgb(24, 221, 139);
+  }
+  .topnav .icon:hover{
+    background-color: #f2f2f2;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+  * {
+    box-sizing: border-box;
+  
+  }
+  
+  .row > .column {
+    padding: 0 8px;
+   
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+ 
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  #imok {
+    margin-bottom: -4px;
+    width: 50px;
+    height: 180px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+    font-size: 26px;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  #imok.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+    height: 200px;
+  }
+  #capt{
+    font-size: 20px;
+  }
+  #capt:hover{
+    color: rgb(40, 182, 88);
+  }
+  #all{
+    display: flex;
+  }
+  #name2{
+    color: rgb(50, 228, 168);
+    font-size: 30px;
+  }
+  /*blogs*/
+  #bl{
+    color:rgb(50, 228, 168) ;
+    text-align: center;
+    text-decoration: wavy;
+  }
+
+  #t1{
+    width: 32%;
+    height: 300px;
+    background-color: rgb(23, 33, 54);
+    padding-left: 15px;
+    margin-left: 30px;
+    border-radius: 11px;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+  }
+  #imm{
+    width:100%;
+    height:70%;
+    transition: transform .2s;
+  }
+  #t1w{
+    width: 28%;
+    height: 350px;
+    background-color: rgb(23, 33, 54);
+    padding-left: 15px;
+    margin-left: 30px;
+    border-radius: 11px;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+  }
+  #immw{
+    width:100%;
+    height:80%;
+    transition: transform .2s;
+  }
+  #immw:hover{
+    transform: scale(1.04);
+  }
+  #allim{
+    margin-left: 10px;
+    display: flex;
+  }
+  a:hover{
+    color: #1FFF6B;
+  }
+  
+  #aw{
+    background-color: rgb(50, 228, 168);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 26px;
+    text-align: center;
+    vertical-align: middle;
+    
+  }
+  #aw:hover{
+    background-color: #f2f2f2;
+  }
+
+ 
+#imm:hover{
+  transform: scale(1.04);
+}
+#postz{
+  border-style: solid;
+  border-width: 1pt;
+  border-color: white;
+  width: 25%;
+  margin-top: -32%;
+  border-radius: 5px;
+  float: right;
+  margin-right: 15px;
+  text-align: center;
+}
+#recp{
+  color: rgb(50, 228, 168);
+  font-size: 28px;
+}
+.cat{
+  border-style: solid;
+  border-width: 1pt;
+  border-color: white;
+  width: 25%;
+  margin-top: -52%;
+  border-radius: 5px;
+  float: right;
+  margin-right: 15px;
+  text-align: center;
+}
+#catz{
+   color: #AFC8C2;;
+  font-size: 25px;
+}
+li{
+  color: rgb(50, 228, 168);
+  font-size: 28px;
+}
+#catz:hover{
+  color:rgb(50, 228, 168);
+}
+#ccp{
+  color: white;
+  font-size: 20px;
+
+}
+#lk:hover{
+
+  color: rgb(50, 228, 168);
+}
+
+
+
+/*-----------------------------------*/
+
+
+.card {
+  position: relative;
+  width: 350px;
+  height: 320px;
+  color: #fff;
+  background: transparent;
+  overflow: hidden;
+  border-top: 2px solid rgb(50, 228, 168, 0.5);
+  border-right: 2px solid rgb(50, 228, 168,0.5);
+  border-bottom: 2px solid rgb(50, 228, 168,0.5);
+  border-left: 2px solid rgb(50, 228, 168,0.5);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  padding: 1em;
+  justify-content: space-around;
+}
+
+
+
+#sp {
+  position: absolute;
+  border-radius: 100vmax;
+
+}
+
+.top {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    transparent 50%,
+    rgb(50, 228, 168,0.5),
+    rgb(50, 228, 168)
+  );
+}
+
+.bottom {
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    rgb(50, 228, 168,0.5),
+    rgb(50, 228, 168),
+    transparent 50%
+  );
+}
+
+.right {
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 30%,
+    rgb(50, 228, 168,0.5),
+    rgb(50, 228, 168)
+  );
+}
+
+.left {
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    rgb(50, 228, 168,0.5),
+    rgb(50, 228, 168),
+    transparent 70%
+  );
+}
+
+.top {
+  animation: animateTop 3s ease-in-out infinite;
+}
+
+.bottom {
+  animation: animateBottom 3s ease-in-out infinite;
+}
+
+.right {
+  animation: animateRight 3s linear infinite;
+}
+
+.left {
+  animation: animateLeft 3s ease-in-out infinite;
+}
+
+@keyframes animateTop {
+  25% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  30%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateBottom {
+  0%,
+  50% {
+    opacity: 0;
+    width: 0;
+  }
+
+  75% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  76%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateRight {
+  0%,
+  25% {
+    opacity: 0;
+    height: 0;
+  }
+
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+
+  55%,
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateLeft {
+  0%,
+  75% {
+    opacity: 0;
+    bottom: 0;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}
